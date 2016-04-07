@@ -1,0 +1,111 @@
+
+#TopBar {
+    clear: both;
+    display: block;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+#Center {
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 60px;
+	bottom: 43px;
+	position: absolute;
+
+}
+
+#BottomBar {
+	clear: both;
+    display: block;
+    height: 43px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: #f2f2f2;
+    left: 0px;
+    border-top: 1px solid #e4e4e4;
+}
+
+ul {
+	position: absolute;
+	right: 30px;
+}
+
+#rightbottombar {
+	position: absolute;
+	right: 20px;
+	bottom: -5px;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+
+}
+
+#leftbottombar {
+	position: absolute;
+	left: -20px;
+	bottom: -5px;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+}
+
+li {
+	display: inline;
+}
+
+#leftbottombar li a, #rightbottombar li a {
+	padding-left: 13px;
+    padding-right: 13px;	
+    color: #666;
+}
+
+a{
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	outline: medium none;
+	color: #000;
+	opacity: 0.75;
+	font-size: 13px;
+    padding-left: 7px;
+    padding-right: 7px;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#signin {
+    background: #4285f4;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#signintext {
+	color: #fff;
+	font-weight: bold;
+	opacity: 1;
+	text-decoration: none;
+}
+
+img {
+	position: relative;
+	top: 170px;
+	margin: auto;
+	width: 272px;
+	display: block;
+}
+
+#searchborder {
+	position: relative;
+	top: 170px;
+	margin: auto;
+	display: block;
+	width: 400px;
+	border: solid black 1px;
+}
