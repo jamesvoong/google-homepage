@@ -1,16 +1,11 @@
-
-#TopBar {
-    clear: both;
-    display: block;
-    height: 60px;
-    position: absolute;
-    width: 100%;
-    left: 0px;
+html {
+	font-family: arial,sans-serif;
 }
 
-#TopBar ul {
+#TopBar {
 	position: absolute;
 	right: 30px;
+	float: right;
 }
 
 li {
@@ -18,7 +13,6 @@ li {
 }
 
 li a{
-	font-family: arial,sans-serif;
 	text-decoration: none;
 	outline: medium none;
 	color: #000;
@@ -42,10 +36,7 @@ a img {
 
 #signin {
     background: #4285f4;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 7px 5px 7px;
 }
 
 #signintext {
@@ -61,7 +52,7 @@ a img {
 	left: 0px;
 	top: 60px;
 	bottom: 43px;
-	position: absolute;
+	position: relative;
 }
 
 #picture {
@@ -119,10 +110,8 @@ input:focus {
 	background: #f2f2f2;
 	color: #757575;
 	font-size: 13px;
-	font-family: arial,sans-serif;
 	font-weight: bold;
 	border: 1px solid #f2f2f2;
-	-moz-user-select: none;
 }
 
 #buttons div:hover {
@@ -130,7 +119,6 @@ input:focus {
 	font-weight: bold;
 	background: #f8f8f8;
 	border: 1px #c6c6c6 solid;
-	-moz-user-select: none;
 }
 
 #french {
@@ -140,7 +128,6 @@ input:focus {
 	display: block;
 	text-align: center;
 	color: #222;
-	font-family: arial,sans-serif;
 	font-size: small;
 }
 
@@ -161,8 +148,6 @@ input:focus {
 	right: 20px;
 	bottom: -5px;
 	text-decoration: none;
-	font-family: arial,sans-serif;
-
 }
 
 #leftbottombar {
@@ -170,7 +155,6 @@ input:focus {
 	left: -20px;
 	bottom: -5px;
 	text-decoration: none;
-	font-family: arial,sans-serif;
 }
 
 #leftbottombar li a, #rightbottombar li a {
